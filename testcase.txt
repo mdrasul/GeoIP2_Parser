@@ -1,0 +1,14 @@
+TestCase ID	|	IP							|	Type	|	Description
+======================================================================================= 	
+Test 0		|	me							|	IPv4	|	IPv4 address Min Boundary
+Test 1		|	0.0.0.0						|	IPv4	|	IPv4 address Min Boundary
+Test 2		|	27.0.0.1					|	IPv4	|	IPv4 address Regular
+Test 3		|	255.255.255.255				|	IPv4	|	IPv4 address MAX Boundary
+Test 4		|	192.:).0.138				|	IPv4	|	IPv4 address MAX Boundary
+Test 5		|	("::1						|	IPv6	|	IPv6 address
+Test 6		|	2605:2700:0:3::4713:93e3	|	IPv6	|	public IPv6 address
+Test 7		|	::ffff:192.168.173.22		|	IPv6	|	ipv6 space
+Test 8		|	1::							|	IPv6	|	trailing compression
+Test 9		|	::							|	IPv6	|	'any' address compression
+Test 10		|	27.0.0						|	IPv4	|	Not Complete IP4
+Test 11		|	2700						|	IPv4	|	IP without Dot
